@@ -40,7 +40,7 @@ func BenchmarkGozin(b *testing.B) {
 	}
 }
 
-func ExampleSend() {
+func ExampleSelect() {
 	t1 := make(chan int)
 	t2 := make(chan int)
 	close(t1)
