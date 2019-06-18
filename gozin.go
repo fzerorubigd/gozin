@@ -2,9 +2,10 @@
 // is an essential part of concurrency, but having a dynamic select is only possible via reflection.
 // If you have several channels, and you know them at the coding time, then the go select
 // is your ultimate answer. but if you want to watch channels that are created programmatically,
-// then you have to use reflection. هف
+// then you have to use reflection.
 // Package gozin is a simple thin wrapper around the reflection call. It is slower than
 // go select (what you expect!?) but if you need  it then you have to use it.
+//
 // In Persian, gozin (گزین) means chosen.
 package gozin
 
